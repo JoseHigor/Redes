@@ -1,0 +1,55 @@
+
+body{
+ background-image: url("../imagens/backg.jpg");
+ background-color: #cccccc;
+ color:white;
+}
+
+.column {
+    float: left;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+figcaption{
+	font-family: Fantasy;
+	color: red;
+}
+img{
+	width:275px;
+	height:275px; 
+	border:3px solid white;
+}
+
+#divmenu{
+	border: 10px solid white;
+	background-color:white;
+}
+
+#menu a{
+	color: black;
+	font-size: 19px;
+	text-decoration:none;
+	font-family: arial;
+}
+
+/* mouse em cima do link */
+#menu a:hover {
+    color: white;
+	background-color:gray;
+	border: 11px solid gray;
+	font-family: Times;
+}
+
+{
+	border:3px;
+	border-color:white;
+}
